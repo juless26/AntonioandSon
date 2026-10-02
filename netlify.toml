@@ -1,0 +1,3 @@
+# Netlify settings. This is a plain HTML site, so there is no build step.
+[build]
+  publish = "."

@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Antonio &amp; Son Landscape Design and Maintenance</title>
+<meta name="description" content="Antonio Ibarra and his son design, plant and maintain yards. Request a free estimate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body id="home">
+
+<header class="top">
+  <a class="wordmark" href="#home">Antonio &amp; Son<span>Landscape Design and Maintenance</span></a>
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-button">Menu</label>
+  <nav aria-label="Main">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li class="has-sub"><a href="#services">Services</a>
+        <ul>
+          <li><a href="#design">Landscape design</a></li>
+          <li><a href="#maintenance">Maintenance</a></li>
+        </ul>
+      </li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#area">Service area</a></li>
+      <li><a href="#estimate-steps">Estimates</a></li>
+      <li><a href="#estimate">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- TODO: replace with Antonio's real phone number in both places on this line -->
+  <a class="call" href="tel:+10000000000">Call: [phone number]</a>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="hero-text">
+    <!-- TODO: replace [service area] with the cities Antonio works in -->
+    <p class="eyebrow">Landscape design and maintenance in [service area]</p>
+    <h1>Gardens designed and cared for by a <em>father and son</em></h1>
+    <p class="lede">Antonio Ibarra and his son design new gardens and take care of existing ones. The same two people come to your house every visit.</p>
+    <p class="actions"><a class="button" href="#estimate">Request a free estimate</a> <a class="textlink" href="#services">See our services</a></p>
+  </div>
+  <img class="hero-photo" src="images/garden-path.jpg" width="768" height="1024" alt="A curved gravel path past an olive tree and a tall hedge, with potted succulents in front and a fire pit at the far end">
+</section>
+
+<section id="about" class="about">
+  <img src="images/fire-pit.jpg" width="768" height="1024" loading="lazy" alt="A stone fire pit and a wooden chair on a gravel path lined with shrubs">
+  <div>
+  <h2>About Antonio &amp; Son</h2>
+  <!-- TODO: add how long Antonio has been in business, and anything else he wants customers to know -->
+  <p>Antonio Ibarra runs the company with his son. They do the design, the planting and the regular visits themselves, so you always know who is working in your yard.</p>
+  </div>
+</section>
+
+<section id="services" class="band services">
+  <h2>Services</h2>
+  <!-- TODO: confirm both lists with Antonio. Remove anything he does not offer and add what is missing. -->
+  <div class="two">
+    <div id="design">
+      <h3>Landscape design</h3>
+      <p>For a new yard, or a yard you want to change.</p>
+      <ul>
+        <li>Planting plans for front and back yards</li>
+        <li>New lawns and sod</li>
+        <li>Flower beds, shrubs and trees</li>
+        <li>Sprinkler and drip irrigation installation</li>
+      </ul>
+    </div>
+    <div id="maintenance">
+      <h3>Maintenance</h3>
+      <p>Regular visits to keep the yard healthy and tidy.</p>
+      <ul>
+        <li>Mowing and edging</li>
+        <li>Hedge and shrub trimming</li>
+        <li>Weeding and cleanup</li>
+        <li>Fertilizing and seasonal planting</li>
+        <li>Sprinkler checks and repairs</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="band gallery">
+  <h2>Gallery</h2>
+  <!-- TODO: these photos are stand-ins. Replace them with photos of Antonio's own work when he has them. -->
+  <div class="grid">
+    <img src="images/bougainvillea.jpg" width="768" height="1024" loading="lazy" alt="A wall covered in pink bougainvillea">
+    <img src="images/cactus-agave.jpg" width="768" height="1024" loading="lazy" alt="Prickly pear cactus with red fruit beside a striped agave in a gravel bed">
+    <img src="images/tree-dahlia.jpg" width="768" height="1024" loading="lazy" alt="Pale purple flowers in front of a silver fan palm">
+    <img src="images/wisteria.jpg" width="768" height="1024" loading="lazy" alt="Purple wisteria hanging over a wooden fence">
+    <img class="wide" src="images/sunset-garden.jpg" width="1024" height="768" loading="lazy" alt="A gravel path and planting beds beside a stucco house at sunset">
+  </div>
+</section>
+
+<section id="area" class="band area">
+  <h2>Service area</h2>
+  <!-- TODO: list the cities Antonio works in -->
+  <p>We work in [service area]. If you are not sure whether we come to your street, call and ask.</p>
+</section>
+
+<section id="estimate-steps" class="band steps">
+  <h2>How an estimate works</h2>
+  <ol>
+    <li><h3>You tell us about the yard</h3><p>Send the form below or call. Say what you want done and where you live.</p></li>
+    <li><h3>Antonio visits</h3><p>He walks the yard with you, so the price is based on what he sees.</p></li>
+    <li><h3>You get a written price</h3><p>The estimate is free. Work starts only after you agree to it.</p></li>
+  </ol>
+</section>
+
+<section id="estimate" class="contact">
+  <div class="contact-form">
+    <h2>Request a free estimate</h2>
+    <form name="estimate" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="estimate">
+      <p class="hp"><label>Leave this empty <input name="bot-field"></label></p>
+      <label>Your name <input type="text" name="name" autocomplete="name" required></label>
+      <label>Phone <input type="tel" name="phone" autocomplete="tel" required></label>
+      <label>Email (optional) <input type="email" name="email" autocomplete="email"></label>
+      <label>Street address or city <input type="text" name="location" autocomplete="street-address" required></label>
+      <fieldset>
+        <legend>What do you need?</legend>
+        <label class="check"><input type="checkbox" name="need" value="Design"> A new or changed yard</label>
+        <label class="check"><input type="checkbox" name="need" value="Maintenance"> Regular maintenance</label>
+        <label class="check"><input type="checkbox" name="need" value="One-time"> A one-time cleanup or repair</label>
+      </fieldset>
+      <label>Tell us about the yard <textarea name="message" rows="4"></textarea></label>
+      <button class="button" type="submit">Send request</button>
+    </form>
+  </div>
+  <div class="contact-info">
+    <h2>Or reach Antonio directly</h2>
+    <!-- TODO: replace phone, email and hours -->
+    <dl>
+      <dt>Phone</dt><dd><a href="tel:+10000000000">[phone number]</a></dd>
+      <dt>Email</dt><dd><a href="mailto:name@example.com">[email address]</a></dd>
+      <dt>Hours</dt><dd>[days and hours]</dd>
+    </dl>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div>
+    <p class="wordmark">Antonio &amp; Son<span>Landscape Design and Maintenance</span></p>
+  </div>
+  <div>
+    <h2>Services</h2>
+    <a href="#design">Landscape design</a>
+    <a href="#maintenance">Maintenance</a>
+  </div>
+  <div>
+    <h2>Company</h2>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#area">Service area</a>
+    <a href="#estimate">Contact</a>
+  </div>
+  <div>
+    <h2>Contact</h2>
+    <a href="tel:+10000000000">[phone number]</a>
+    <a href="mailto:name@example.com">[email address]</a>
+    <!-- TODO: add contractor license number here if Antonio has one -->
+  </div>
+</footer>
+</body>
+</html>
