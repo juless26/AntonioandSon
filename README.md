@@ -18,7 +18,7 @@ Search `index.html` for `TODO`. Each one marks text that needs a real value from
 2. Days and hours
 3. The two service lists
 4. Contractor license number, if he has one
-5. Photos. The ones in `images/` are stand-ins until Antonio has photos of his own work.
+5. Photos. The ones in `images/` are placeholders until Antonio sends photos of his own work. The four named `sample-*.jpg` are computer-generated.
 
 ## Estimate form
 
