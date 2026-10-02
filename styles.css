@@ -72,6 +72,7 @@ a{color:inherit}
 .grid .wide{grid-column:span 2;aspect-ratio:auto;min-height:0}
 .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:3rem 5rem}
 .services h2{margin-bottom:3rem}
+.two h3{font-weight:700}
 .two ul{margin:2.4rem 0 0;padding:0;list-style:none}
 .two li{padding:.85rem 0;border-top:1px solid var(--line)}
 .two li:last-child{border-bottom:1px solid var(--line)}
