@@ -81,6 +81,15 @@ a{color:inherit}
 .steps li{counter-increment:s;border-top:1px solid var(--line);padding-top:1.4rem}
 .steps li::before{content:counter(s);font:300 3.2rem/1 var(--display);color:var(--leaf);display:block;margin-bottom:.8rem}
 
+.testimonials{background:var(--band)}
+.quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:3rem 5rem;margin-top:2rem}
+.quotes figure{margin:0;border-top:1px solid var(--line);padding-top:1.6rem}
+.quotes blockquote{margin:0;font:italic 400 1.55rem/1.4 var(--display);color:var(--ink)}
+.quotes blockquote::before{content:"\201C"}
+.quotes blockquote::after{content:"\201D"}
+.quotes figcaption{margin-top:1.4rem;font-weight:600;color:var(--leaf)}
+.quotes figcaption span{display:block;font-weight:400;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);margin-top:.2rem}
+
 /* Contact */
 .contact{background:var(--leaf);color:#fff;display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:3rem clamp(2rem,6vw,6rem);padding:clamp(3.5rem,7vw,6rem) var(--pad)}
 form{display:grid;gap:1.1rem;max-width:34rem}
