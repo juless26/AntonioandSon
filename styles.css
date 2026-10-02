@@ -64,7 +64,7 @@ a{color:inherit}
 .map .coast{fill:none;stroke:#1B1F1A;stroke-width:4;stroke-linejoin:round}
 .map .land{fill:var(--band);stroke:var(--band);stroke-width:1}
 .map .cities circle{fill:#1B1F1A}
-.map .cities text{font:600 14px var(--body);fill:var(--ink);paint-order:stroke;stroke:var(--band);stroke-width:5px;stroke-linejoin:round}
+.map .cities text{font:600 14px var(--body);fill:var(--ink)}
 .area > div{padding:clamp(2.5rem,6vw,5rem) var(--pad)}
 .area p{font-size:1.15rem;margin-top:0}
 .about{background:var(--band);grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:0;align-items:center}
