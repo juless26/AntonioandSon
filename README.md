@@ -14,11 +14,10 @@ A one-page website, written in plain HTML and CSS. There is nothing to install o
 
 Search `index.html` for `TODO`. Each one marks text that needs a real value from Antonio:
 
-1. Phone number (appears in the header and the contact section)
-2. Days and hours
-3. The two service lists
-4. Contractor license number, if he has one
-5. Photos. The ones in `images/` are placeholders until Antonio sends photos of his own work. The four named `sample-*.jpg` are computer-generated.
+1. Which days Antonio works (the hours are in)
+2. The two service lists
+3. Contractor license number, if he has one
+4. Photos. The ones in `images/` are placeholders until Antonio sends photos of his own work. The four named `sample-*.jpg` are computer-generated.
 
 ## Estimate form
 
