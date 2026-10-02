@@ -79,7 +79,7 @@ a{color:inherit}
 
 .steps ol{list-style:none;margin:2rem 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:2.5rem 4rem;counter-reset:s}
 .steps li{counter-increment:s;border-top:1px solid var(--line);padding-top:1.4rem}
-.steps li::before{content:counter(s);font:300 3.2rem/1 var(--display);color:var(--leaf);display:block;margin-bottom:.8rem}
+.steps li::before{content:counter(s);font:300 3.2rem/1 var(--display);font-variant-numeric:lining-nums;color:var(--leaf);display:block;margin-bottom:.8rem}
 
 .testimonials{background:var(--band)}
 .quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:3rem 5rem;margin-top:2rem}
