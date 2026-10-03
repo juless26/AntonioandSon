@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="images/hero-garden.jpg" imagesrcset="images/hero-garden-640.webp 640w, images/hero-garden-900.webp 900w, images/hero-garden-1200.webp 1200w, images/hero-garden-1600.webp 1600w" imagesizes="(max-width:800px) 70vw, 50vw" fetchpriority="high">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body id="home">
@@ -42,7 +43,7 @@
     <p class="lede">Serving Silicon Valley since 2020.</p>
     <p class="actions"><a class="button" href="#estimate">Request a free estimate</a> <a class="textlink" href="#services">See our services</a></p>
   </div>
-  <img class="hero-photo" src="images/hero-garden.jpg" width="2000" height="2242" alt="A front garden with lavender, rosemary and succulents along a gravel and stone path, palms and red roses beside a pale yellow house">
+  <img class="hero-photo" src="images/hero-garden.jpg" srcset="images/hero-garden-640.webp 640w, images/hero-garden-900.webp 900w, images/hero-garden-1200.webp 1200w, images/hero-garden-1600.webp 1600w" sizes="(max-width:800px) 70vw, 50vw" fetchpriority="high" decoding="async" width="2000" height="2242" alt="A front garden with lavender, rosemary and succulents along a gravel and stone path, palms and red roses beside a pale yellow house">
 </section>
 
 <section id="about" class="about">
